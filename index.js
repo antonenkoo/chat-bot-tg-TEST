@@ -12,4 +12,5 @@ document.querySelector('.button').onclick = function() {
     let xhttp = new XMLHttpRequest();
     xhttp.open("GET", url + message, true);
     xhttp.send();
+    
 }
