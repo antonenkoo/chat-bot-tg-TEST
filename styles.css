@@ -1,0 +1,112 @@
+body{
+    font-family: 'Exo 2', sans-serif;
+    /* background-image: url(./img/b957a6fbbffa5659fb38d4a22f4d4850.jpg); */
+    list-style: none;
+    text-decoration: none;
+  }
+  ul{
+    list-style: none;
+  }
+  
+  .container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .header{
+    
+    background-color:rgb(39 39 39 / 67%);
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .container--flex{
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo__span{
+    
+    display: inline-block;
+    width: 200px;
+    height: 85px;
+    /* background-image: url(./img/logo.png); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition:all 0.5s ease-out;
+  }
+  /* .logo:hover .logo__span{
+     background-image: url(./img/logo-active.png);
+  } */
+  .nav{
+    width: 100%;
+    align-items: center;
+    display: inline-flex;
+  }
+  .nav__list{
+    align-items: center;
+    display: flex;
+  }
+  .nav__item{
+    margin-right: 30px;
+  }
+  .nav__link{
+    text-decoration: none;
+    color: #dad6d6;
+    font-size: 18px;
+  }
+  .nav__link:hover{
+    color: #5e5e5e;
+  }
+  .nav__contact{
+    margin-left: auto;
+    display: flex;
+  }
+  
+  .controls{
+    align-items: center;
+    display: flex;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .controls__input{
+    background-color:black;
+    color: antiquewhite;
+    margin-right: 15px;
+    padding: 10px;
+    font-size: 30px;
+  }
+  .controls__input::placeholder{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 20px;
+  }
+  .controls__button{
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 700;
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: #ffffff;
+    border-radius: 4%;
+    font-size: 20px;
+  }
+  .controls__button:hover{
+    background-color: #ffffff;
+  }
+  .controls__button:active{
+    color: #fff;
+    background-color: #5e5e5e;
+  }
+  .boxes{
+    list-style: none;
+  }
+  .boxes__element{
+   background-color: rgb(37 37 37 / 67%)
+  }
+  .boxes__text{
+    padding: 10px;
+    font-family: 'Exo 2', sans-serif;
+  
+    color: aliceblue;
+    font-size: 35px;
+  }

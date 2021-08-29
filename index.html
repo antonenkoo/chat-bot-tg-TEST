@@ -1,20 +1,40 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>Chatbot</title>
-<script type="text/javascript" src="index.js"></script>
-<link rel="stylesheet" href="./css/styles.css" />
-</head>
-<body>
-    <div style="display: flex;justify-content: center;" id="main">
-        <div>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Message bot</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap" rel="stylesheet">   
+  </head>
+  <body>
+    <main>
+      <div class="container">
+      <!-- <div class = 'controls'id="controls">
+        <input class='controls__input'type="input" id="input" placeholder="Введите текст..."/>
+        <button class="controls__button" type="button" data-action="render">
+          Отправить 
 
-            <input class="message" type="text" placeholder="Say something..."/>
+        </button>
+      </div>
 
-        </div>
+      <ul class="boxes" id="boxes"></ul> -->
+
+      <div class = 'controls'id="controls">
+        <form name="publish">
+          <input class='controls__input' type="text" name="message" placeholder="это сообщение бот отправит Марку"/>
+          <input class='controls__input' type="submit" value="отправить"/>
+        </form>
+      </div>
     </div>
-    <div style="display: flex;justify-content: center;">
-        <button  class="button" data-add>push</button>
-    </div>
-</body>
+    </main>
+    
+    
+    <footer></footer>
+    <script src="js/task-08.js" type="module"></script>
+    
+  </body>
 </html>
