@@ -4,11 +4,9 @@ document.forms.publish.onsubmit = function() {
   let chat_id = "695680789";
   let url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=`;
   let xhttp = new XMLHttpRequest();
-  if (message == '/next') {
-    xhttp.open("GET", url + 'марк красавчик', true);
-    xhttp.send();
+  xhttp.open("GET", url + message, true);
+  xhttp.send();
   
-  }
   
   return false;
 };
